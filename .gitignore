@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.csv
+*.zip
+
+# Hugging Face cache and datasets
+hf_cache/
+d6d2babfa43902f6f1148b0b7e33a59338437f09/
+_oupipeline_v5tputs/

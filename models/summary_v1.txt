@@ -1,0 +1,21 @@
+T2I Evaluator v1 (pipeline v5.0)
+Saved    : 2026-04-28 16:52:13
+Threshold: 0.0024
+Features : ['clip_sim', 'blip_score', 'neg_fid', 'neg_kid', 'is_score', 'faithfulness', 'obj_score', 'attr_score', 'rel_score', 'robustness_score']
+Meta     : {
+  "splits": [
+    "train",
+    "validation",
+    "test"
+  ],
+  "n_train": 96000,
+  "n_val": 0,
+  "n_test": 0,
+  "dataset": "Rajarshi-Roy-research/Defactify_Image_Dataset",
+  "clip_model": "open_clip/ViT-B-32",
+  "seed": 42,
+  "blip_ok": true,
+  "test_accuracy": -1.0,
+  "test_auc": -1.0,
+  "split_usage": "full_dataset_combined=fit_and_earlystop"
+}

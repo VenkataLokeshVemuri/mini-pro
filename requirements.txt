@@ -1,0 +1,15 @@
+numpy
+pandas
+Pillow
+torch
+torchvision
+open-clip-torch
+transformers
+datasets
+scipy
+matplotlib
+psutil
+spacy
+gradio
+tqdm
+nltk
